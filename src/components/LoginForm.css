@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .login-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 
 body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    /* background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Achieve_Operational_Readiness_in_Project_Management.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0; */
 }
+
+  /* .login-page {
+      background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Achieve_Operational_Readiness_in_Project_Management.jpg');
+      background-size: cover;
+      background-position: center;
+
+  } */
 
 .login-form {
     width: 300px;

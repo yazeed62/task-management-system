@@ -1,13 +1,99 @@
+
+
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* TaskList Component */
+
+.task-list {
+  margin-bottom: 20px;
+}
+
+.task-list h2 {
+  margin-bottom: 10px;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+/* .task-list li.completed {
+  text-decoration: line-through;
+} */
+
+.task-list li button {
+  margin-left: 10px;
+}
+
+/* TaskForm Component */
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form h2 {
+  margin-bottom: 10px;
+}
+
+.task-form form {
+  display: flex;
+  align-items: center;
+}
+
+.task-form input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.task-form button {
+  padding: 5px 10px;
+}
+
+/* TaskDetails Component */
+
+.task-details {
+  margin-bottom: 20px;
+}
+
+.task-details h2 {
+  margin-bottom: 10px;
+}
+
+/* TaskFilter Component */
+
+.task-filter {
+  margin-bottom: 20px;
+}
+
+.task-filter h2 {
+  margin-bottom: 10px;
+}
+
+.task-filter button {
+  margin-right: 10px;
+  padding: 5px 10px;
 }

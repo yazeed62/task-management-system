@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./LandingPage.css";
 
 const LandingPage = () => {
   const [username, setUsername] = useState('');
